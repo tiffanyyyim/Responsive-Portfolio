@@ -1,0 +1,95 @@
+div.photobucket { background-color: #ebebeb;
+	height: 720px;
+	width: 600px;
+	padding-top: 30px;
+	border: 1px solid gray;
+	float: left;
+	margin-left: 588px
+
+}
+div.photo { float: right;
+	padding: 20px;
+}
+
+@media screen and (max-width: 980px) {
+	body {width: 980px;
+	}
+	div.photobucket { width: 400px;
+		height: 1450px;
+		margin-left: 200px;
+		background-color: white;
+		margin-top: 20px;
+		vertical-align: middle;
+	}
+	div.photo { margin-right: 75px;
+
+	}
+	aside { background-color: white;
+		margin-top: 20px;
+	}
+	div.name { margin-left: 200px;
+	}
+	footer { position: absolute;
+		bottom: -850px;
+	}
+}	
+
+@media screen and (max-width: 768px) {
+	body {width: 768px;
+	}
+	div.photobucket { width: 700px;
+		height: 800px;
+		background-color: white;
+		margin-top: 20px;
+		vertical-align: middle;
+		margin-left: 20px;
+	}
+	div.photo { margin-right: 75px;
+
+	}
+	aside { background-color: white;
+		margin-top: 20px;
+	}
+	div.name { margin-left: 20px;
+	}
+	footer { position: absolute;
+		bottom: -325px;
+	}
+}	
+
+@media screen and (max-width: 640px) {
+	body {width: 640px;
+	}
+	div.photobucket { width: 580px;
+		height: 1450px;
+		margin-left: -50px;
+		background-color: white;
+		margin-top: 20px;
+		vertical-align: middle;
+	}
+	div.photo { margin: auto;
+
+	}
+	aside { background-color: white;
+		margin-top: 20px;
+		margin-left:-50px;
+		width: 580px;
+	}
+	div.name {
+		width: 640px;
+		margin-left: -70px;
+	}
+	div.links {background-color: white;
+		overflow: auto;
+		width: 640px;
+		margin-top: 0px;
+		margin-bottom: 20px;
+		margin-left: -70px;
+	}
+	h1 {margin-left: 190px;
+	}
+	a {margin-right: 250px;
+	}
+	footer { position: absolute;
+		bottom: -1000px;
+	}
