@@ -157,16 +157,19 @@ footer{ clear:both;
 	div.links { clear: both;
 		background-color: white;
 		overflow: auto;
-		width: 640px;
+		width: 740px;
 		margin-top: 0px;
 		margin-bottom: 20px;
-	}
+			}
 	div.name {
-		width: 640px;
+		width: 645px;
 	}
-	h1 {margin-left: 190px;
+	h1 { margin-left: 200px; 
 	}
-	a {margin-right: 250px;
-	}
+	a { 
+		margin-left: 350px;}
 
-}	
+	
+
+
+	
